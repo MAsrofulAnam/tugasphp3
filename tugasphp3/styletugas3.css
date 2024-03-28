@@ -1,45 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
-    background-color: #666; /* Warna abu-abu */
+    background-color: #666;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 
 }
+
 
 .frame {
     background-color: white;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px; /* Atur lebar maksimum frame */
-    width: 100%; /* Pastikan frame tetap responsif */
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    width: 100%;
 }
 
-.frame h3 {
-    text-align: center;
-}
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
-th, td {
+table th,
+table td {
+    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
 }
 
-tfoot td {
-    font-weight: bold;
+table th {
+    background-color: #f2f2f2;
 }
 
-tfoot td:first-child {
-    text-align: right;
-}
 
-footer {
-    text-align: center;
+.footer {
     margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.tfoot-row {
+    background-color: #ddd;
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 20px;
+
 }
