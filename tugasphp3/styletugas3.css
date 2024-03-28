@@ -1,0 +1,45 @@
+body {
+    background-color: #666; /* Warna abu-abu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.frame {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Atur lebar maksimum frame */
+    width: 100%; /* Pastikan frame tetap responsif */
+}
+
+.frame h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+tfoot td:first-child {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
