@@ -81,30 +81,30 @@
         }
         ?>
     </tbody>
-    <tfoot>
-        <tr>
+    <tfoot S>
+        <tr class="tfoot-row">
             <td colspan="4">Nilai Tertinggi</td>
             <td colspan="3"><?php echo $nilaiTertinggi; ?></td>
         </tr>
-        <tr>
+        <tr class="tfoot-row">
             <td colspan="4">Nilai Terendah</td>
             <td colspan="3"><?php echo $nilaiTerendah; ?></td>
         </tr>
-        <tr>
+        <tr class="tfoot-row">
             <td colspan="4">Nilai Rata-rata</td>
             <td colspan="3"><?php echo $totalNilai / count($mahasiswa); ?></td>
         </tr>
-        <tr>
+        <tr class="tfoot-row">
             <td colspan="4">Jumlah Mahasiswa</td>
             <td colspan="3"><?php echo count($mahasiswa); ?></td>
         </tr>
-        <tr>
+        <tr class="tfoot-row">
             <td colspan="4">Jumlah Keseluruhan Nilai</td>
             <td colspan="3"><?php echo $totalNilai; ?></td>
         </tr>
     </tfoot>
 </table>
-    <footer align="center">
+    <footer align="center" class="footer">
         <p>&copy; 2024 - KEL 1 _ M.ASROFUL ANAM</p>
     </footer>
             </div>
